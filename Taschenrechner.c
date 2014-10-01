@@ -18,9 +18,9 @@ int zahleingabe(char x)
 	else if (x == '2')
 	{
 		puts("zahl 1 eingeben:");
-		scanf("%i", &x);
+		scanf("%f", &x);
 		puts("zahl 2 eingeben:");
-		scanf("%i", &y);
+		scanf("%f", &y);
 	}
 	return 0;
 }
