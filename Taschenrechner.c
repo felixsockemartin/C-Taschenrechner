@@ -2,6 +2,32 @@
 #include <stdbool.h>
 
 
+
+int Multiplikation_mit_Summierung(int x, int y)
+{
+	int E = 0;
+	for(int i = 1; i < x; i++)
+	{
+		E = E + y;
+	}
+	return E;
+}
+
+int Potenz(int x, int y)
+{
+	int E = x;
+	for(int i = 2; i < y; i++)
+	{
+		E = Mulitplikation_mit_Summierung(x, E);
+	}
+	return E;
+}
+
+int chinesisch_Multiplizieren(int x, int y)
+{
+	int lx;
+}
+
 int eingabe(int x)
 {
 	int zahl;
@@ -148,5 +174,6 @@ int main()
 				return 0;
 			break;
 		}
+		fflush(stdout);
 	}
 }
